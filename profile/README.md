@@ -10,7 +10,7 @@ This page is the index for the public source repos in this org. Pick the row tha
 |---|---|---|
 | Browse runnable examples & docs source | **[bithuman-sdk-public](https://github.com/bithuman-product/bithuman-sdk-public)** | Python, Swift, CLI, and REST examples (`Examples/`) plus the Mintlify source for [docs.bithuman.ai](https://docs.bithuman.ai) (`docs/`). |
 | Embed the on-device Swift SDK | **[bithuman-sdk-public](https://github.com/bithuman-product/bithuman-sdk-public)** | Public SwiftPM binary package — `import bitHumanKit`. Mac M3+ / iPad M4+ / iPhone 16 Pro+. |
-| Run a working Mac / iPad / iPhone reference app | **[bithuman-apps](https://github.com/bithuman-product/bithuman-apps)** | Source-available reference apps that consume the SDK. Clone, build, talk to an avatar in 30 seconds. |
+| Run a working Mac / iPad / iPhone / CLI reference | **[bithuman-apps](https://github.com/bithuman-product/bithuman-apps)** | Source-available reference apps + the canonical Swift SDK source (under `SDK/`) they consume. Clone, build, talk to an avatar in 30 seconds. |
 | Install the Mac CLI | **[homebrew-bithuman](https://github.com/bithuman-product/homebrew-bithuman)** | `brew install bithuman-product/bithuman/bithuman-cli` — voice + video chat from Terminal. |
 | Install the Python SDK | [PyPI: `bithuman`](https://pypi.org/project/bithuman/) | `pip install bithuman`. SDK source is private (signing material is baked in); issues + changelog are tracked in [bithuman-sdk-public](https://github.com/bithuman-product/bithuman-sdk-public). |
 | Use the cloud platform (REST API) | [docs.bithuman.ai](https://docs.bithuman.ai) | No SDK or local runtime needed — agent management over HTTPS. |
@@ -22,19 +22,21 @@ This page is the index for the public source repos in this org. Pick the row tha
                      │
                      │  examples + docs + Swift binary distribution
                      ▼
-              bithuman-sdk-public  ──────►  bithuman-apps
-              (public SwiftPM,                (Mac / iPad / iPhone
-               Examples, docs)                 reference apps)
-                     ▲
-                     │ swift-v* tag → xcframework release
-                     │ py-v*    tag → PyPI publish
-                     │
-              bithuman-sdk  (private monorepo, source of truth
-                             for both Swift and Python SDKs)
-                     │
-                     ├──────►  PyPI: bithuman          (pip install bithuman)
-                     │
-                     └──────►  homebrew-bithuman       (brew install bithuman-cli)
+              bithuman-sdk-public  ◄──────  bithuman-apps
+              (public SwiftPM,             (Mac / iPad / iPhone /
+               Examples, docs)              CLI reference apps +
+                     ▲                       Swift SDK source under SDK/)
+                     │ swift-v* tag → xcframework release ──────┐
+                     │                                           │
+              bithuman-sdk  (private monorepo)                   │
+              (Python SDK + daemon binaries)                     │
+                     │                                           │
+                     ├──────►  PyPI: bithuman   (pip install bithuman)
+                     │                                           │
+                     └─────── homebrew-bithuman  ◄───────────────┘
+                              (brew install bithuman-cli)        CLI binary
+                                                                 built from
+                                                                 bithuman-apps/CLI
 ```
 
 ## Two avatar engines, briefly
