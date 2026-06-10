@@ -30,7 +30,7 @@ Comparison and pricing: [docs.bithuman.ai/getting-started/models](https://docs.b
 
 - **Releases** — Swift SDK on [GitHub Releases](https://github.com/bithuman-product/bithuman-sdk-public/releases), Python SDK on [PyPI](https://pypi.org/project/bithuman/#history), CLI on the [Homebrew tap](https://github.com/bithuman-product/homebrew-bithuman/releases).
 - **Issues & questions** — file in [bithuman-sdk-public/issues](https://github.com/bithuman-product/bithuman-sdk-public/issues) (covers both Swift and Python SDKs) or join the [Discord](https://discord.gg/ES953n7bPA).
-- **Security reports** — email [security@bithuman.ai](mailto:security@bithuman.ai). See each repo's `SECURITY.md` for scope.
+- **Security reports** — email [hello@bithuman.ai](mailto:hello@bithuman.ai). See each repo's `SECURITY.md` for scope.
 - **Status, updates, blog** — [bithuman.ai](https://www.bithuman.ai) · [@bithuman_ai](https://x.com/bithuman_ai).
 
 ## License
