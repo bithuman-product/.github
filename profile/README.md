@@ -11,10 +11,10 @@ Full product docs at **[docs.bithuman.ai](https://docs.bithuman.ai)**.
 | **Try it in 5 minutes** | [docs.bithuman.ai/getting-started/quickstart](https://docs.bithuman.ai/getting-started/quickstart) | `pip install bithuman` and run a working example end-to-end. |
 | **Run runnable examples** | [bithuman-sdk-public](https://github.com/bithuman-product/bithuman-sdk-public) | Python, Swift, CLI, and REST examples plus integration recipes (LiveKit, Next.js, Java, Gradio, offline Mac). |
 | **Embed the on-device Swift SDK** | [bithuman-sdk-public](https://github.com/bithuman-product/bithuman-sdk-public) | SwiftPM binary package — `import bitHumanKit`. Mac M3+ / iPad M4+ / iPhone 16 Pro+. |
-| **Install the Mac CLI** | [homebrew-bithuman](https://github.com/bithuman-product/homebrew-bithuman) | `brew install bithuman-product/bithuman/bithuman` — voice + video chat from Terminal, 100% on-device. |
+| **Install the Mac CLI** | [homebrew-bithuman](https://github.com/bithuman-product/homebrew-bithuman) | `brew install bithuman-product/bithuman/bithuman-cli` — voice + video chat from Terminal, 100% on-device. |
 | **Install the Python SDK** | [PyPI: bithuman](https://pypi.org/project/bithuman/) | `pip install bithuman`. Runs Essence avatars on any CPU (laptop, server, Raspberry Pi). |
 | **Use the REST API** | [docs.bithuman.ai/api-reference](https://docs.bithuman.ai/api-reference) | No local runtime — manage avatars and sessions over HTTPS from any language. |
-| **See a reference app** | [bithuman-apps](https://github.com/bithuman-product/bithuman-apps) | Working Mac / iPad / iPhone / Flutter apps that consume the SDK. Clone, build, talk to an avatar. |
+| **See a reference app** | [bithuman-sdk-public Examples](https://github.com/bithuman-product/bithuman-sdk-public/tree/main/Examples) | Runnable Python / Swift / CLI / REST examples that consume the SDK the same way any third-party app would. |
 
 ## Two avatar engines
 
@@ -31,7 +31,7 @@ Comparison and pricing: [docs.bithuman.ai/getting-started/models](https://docs.b
 - **Releases** — Swift SDK on [GitHub Releases](https://github.com/bithuman-product/bithuman-sdk-public/releases), Python SDK on [PyPI](https://pypi.org/project/bithuman/#history), CLI on the [Homebrew tap](https://github.com/bithuman-product/homebrew-bithuman/releases).
 - **Issues & questions** — file in [bithuman-sdk-public/issues](https://github.com/bithuman-product/bithuman-sdk-public/issues) (covers both Swift and Python SDKs) or join the [Discord](https://discord.gg/ES953n7bPA).
 - **Security reports** — email [security@bithuman.ai](mailto:security@bithuman.ai). See each repo's `SECURITY.md` for scope.
-- **Status, updates, blog** — [bithuman.ai](https://www.bithuman.ai) · [@bithumanAI](https://x.com/bithumanAI).
+- **Status, updates, blog** — [bithuman.ai](https://www.bithuman.ai) · [@bithuman_ai](https://x.com/bithuman_ai).
 
 ## License
 
