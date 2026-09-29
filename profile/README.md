@@ -15,6 +15,14 @@
 
 ---
 
+## Latest
+
+- **Any character, live, rendered on the user's device.** Expression 2 animates any character from one portrait and renders it live on iPhone, iPad, Android, Mac, Linux or in a browser tab with WebGPU. [Read the news](https://docs.bithuman.ai/news/2026-09-29-any-character-live-on-device)
+- **Faster than real time.** Every configuration we publish renders faster than real time, including 10-minute sustained runs on iPhone 15 and Samsung Galaxy S25+. [The numbers](https://docs.bithuman.ai/news/2026-09-29-faster-than-real-time)
+- **For AI agents.** The bitHuman CLI includes an MCP server: `claude mcp add bithuman -- bithuman mcp`. [Claude & Cursor setup](https://docs.bithuman.ai/build/mcp)
+
+Every announcement: [docs.bithuman.ai/news](https://docs.bithuman.ai/news) ([RSS](https://docs.bithuman.ai/news.xml)).
+
 ## Where it runs
 
 The avatar **renders** on iPhone, iPad, Mac, Android, a Linux PC (no GPU needed) or in a browser with WebGPU, on your own servers, or in the bitHuman cloud. The **conversation** — speech recognition, language model and voice — runs where you choose: your own services, bitHuman's managed agent, or, from the CLI, a local conversation brain on your Mac or Linux machine.
