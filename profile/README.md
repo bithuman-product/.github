@@ -13,6 +13,11 @@
   <a href="https://www.bithuman.ai">bithuman.ai</a>
 </p>
 
+<p align="center">
+  <a href="https://discord.gg/x3tMhJvX4X"><img alt="Discord" src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white"></a><br>
+  Questions, demos and challenges: <a href="https://discord.gg/x3tMhJvX4X">join the bitHuman Discord</a>.
+</p>
+
 ---
 
 ## Latest
@@ -57,7 +62,7 @@ Current versions of every package: [docs.bithuman.ai/versions.json](https://docs
 ## Community and support
 
 - **Docs** — [docs.bithuman.ai](https://docs.bithuman.ai), starting at [`/start`](https://docs.bithuman.ai/start)
-- **Questions** — the [Discord](https://discord.gg/ES953n7bPA)
+- **Questions, demos and challenges** — the [bitHuman Discord](https://discord.gg/x3tMhJvX4X)
 - **Docs issues** — [public-docs/issues](https://github.com/bithuman-product/public-docs/issues)
 - **Security reports** — [hello@bithuman.ai](mailto:hello@bithuman.ai)
 - **Updates** — [bithuman.ai](https://www.bithuman.ai) · [@bithuman_ai](https://x.com/bithuman_ai) · [status](https://status.bithuman.ai)
