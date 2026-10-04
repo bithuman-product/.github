@@ -1,3 +1,7 @@
+<!-- gitlab-migration: moved -->
+> **bitHuman's repositories moved to GitLab: [gitlab.com/bithuman](https://gitlab.com/bithuman).**
+> The repositories here are archived (read-only) and no longer updated. Docs: https://docs.bithuman.ai
+
 <h1 align="center">bitHuman</h1>
 
 <p align="center">
@@ -8,7 +12,7 @@
 <p align="center">
   <a href="https://docs.bithuman.ai/start"><b>Start here</b></a> ·
   <a href="https://docs.bithuman.ai/platforms">Platforms</a> ·
-  <a href="https://github.com/bithuman-product/bithuman-examples">Examples</a> ·
+  <a href="https://gitlab.com/bithuman/sdk/bithuman-examples">Examples</a> ·
   <a href="https://docs.bithuman.ai">Docs</a> ·
   <a href="https://www.bithuman.ai">bithuman.ai</a>
 </p>
@@ -42,7 +46,7 @@ From 12 October 2026, API and SDK use requires the Creator plan or higher. Sessi
 |---|---|---|
 | Run a live avatar from the terminal, no code | **CLI** — `curl -fsSL https://install.bithuman.ai \| sh` (macOS, Linux) | [CLI](https://docs.bithuman.ai/platforms/cli) |
 | Render frames or MP4s from your own code | **Python** — `pip install bithuman` (macOS, Linux) | [Python](https://docs.bithuman.ai/platforms/python) |
-| Add an avatar to an iPhone, iPad or Mac app | **Apple** — the Swift package from [`homebrew-bithuman`](https://github.com/bithuman-product/homebrew-bithuman): `Expression2`, `Essence2Kit` | [iOS & iPadOS](https://docs.bithuman.ai/platforms/ios) · [macOS](https://docs.bithuman.ai/platforms/macos) |
+| Add an avatar to an iPhone, iPad or Mac app | **Apple** — the Swift package from [`homebrew-bithuman`](https://gitlab.com/bithuman/sdk/homebrew-bithuman): `Expression2`, `Essence2Kit` | [iOS & iPadOS](https://docs.bithuman.ai/platforms/ios) · [macOS](https://docs.bithuman.ai/platforms/macos) |
 | Add an avatar to an Android app | **Android** — Maven Central: `ai.bithuman:expression2-android`, `ai.bithuman:essence2-android` | [Android](https://docs.bithuman.ai/platforms/android) |
 | Put an avatar on a website | **Web** — one iframe on any page | [Web](https://docs.bithuman.ai/platforms/web) |
 | Give a LiveKit voice agent a face | **LiveKit** — `livekit-plugins-bithuman` | [LiveKit](https://docs.bithuman.ai/platforms/livekit) |
@@ -55,15 +59,15 @@ Current versions of every package: [docs.bithuman.ai/versions.json](https://docs
 
 | Repo | What it is |
 |---|---|
-| [**bithuman-examples**](https://github.com/bithuman-product/bithuman-examples) | Working examples: iOS, Android, macOS, web (Next.js), Python, REST and CLI. |
-| [**homebrew-bithuman**](https://github.com/bithuman-product/homebrew-bithuman) | The Apple SDK (Swift Package Manager) and the Homebrew tap for the bitHuman CLI. |
-| [**public-docs**](https://github.com/bithuman-product/public-docs) | Source for [docs.bithuman.ai](https://docs.bithuman.ai). |
+| [**bithuman-examples**](https://gitlab.com/bithuman/sdk/bithuman-examples) | Working examples: iOS, Android, macOS, web (Next.js), Python, REST and CLI. |
+| [**homebrew-bithuman**](https://gitlab.com/bithuman/sdk/homebrew-bithuman) | The Apple SDK (Swift Package Manager) and the Homebrew tap for the bitHuman CLI. |
+| [**public-docs**](https://gitlab.com/bithuman/docs/public-docs) | Source for [docs.bithuman.ai](https://docs.bithuman.ai). |
 
 ## Community and support
 
 - **Docs** — [docs.bithuman.ai](https://docs.bithuman.ai), starting at [`/start`](https://docs.bithuman.ai/start)
 - **Questions, demos and challenges** — the [bitHuman Discord](https://discord.gg/x3tMhJvX4X)
-- **Docs issues** — [public-docs/issues](https://github.com/bithuman-product/public-docs/issues)
+- **Docs issues** — [public-docs/issues](https://gitlab.com/bithuman/docs/public-docs/-/issues)
 - **Security reports** — [hello@bithuman.ai](mailto:hello@bithuman.ai)
 - **Updates** — [bithuman.ai](https://www.bithuman.ai) · [@bithuman_ai](https://x.com/bithuman_ai) · [status](https://status.bithuman.ai)
 
